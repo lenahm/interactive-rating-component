@@ -133,9 +133,12 @@ main form .rating li:hover label {
 /* utility classes */
 
 .alert {
-    display: block;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 10px auto;
     padding: 5px 15px;
-    margin-top: 20px;
     text-align: center;
     color: var(--orange);
     background-color: var(--dark-blue-lighter-background);
@@ -157,5 +160,5 @@ main form .rating li:hover label {
 }
 
 .container > h1 {
-    margin-top: 40px;
+    margin-top: 30px;
 }
