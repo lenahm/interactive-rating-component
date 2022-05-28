@@ -70,7 +70,7 @@ main form .rating li {
     text-align: center;
     font-size: 20px;
     font-weight: 700;
-    background: var(--dark-blue-lighter-background);
+    background-color: var(--dark-blue-lighter-background);
     border-radius: 50%;
 }
 
@@ -106,4 +106,19 @@ main form #submit-btn {
     background-color: var(--orange);
     border: none; 
     border-radius: 20px;
+}
+
+/* hover effects */
+
+main form #submit-btn:hover {
+    color: var(--orange); 
+    background-color: #fff;
+}
+
+main form .rating li:hover {
+    background-color: var(--orange);
+}
+
+main form .rating li:hover label {
+    color: #fff;
 }
