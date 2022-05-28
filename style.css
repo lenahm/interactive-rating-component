@@ -46,11 +46,13 @@ header > img {
     border-radius: 50%;
 }
 
-main > h1 {
+main > h1,
+.container > h1 {
     color: #fff;
 }
 
-main > p {
+main > p,
+.container > p  {
     margin: 10px 0 20px 0;
     color: var(--medium-gray);
     line-height: 1.5rem;
@@ -126,4 +128,34 @@ main form .rating li:hover {
 
 main form .rating li:hover label {
     color: #fff;
+}
+
+/* utility classes */
+
+.alert {
+    display: block;
+    padding: 5px 15px;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--orange);
+    background-color: var(--dark-blue-lighter-background);
+    border-radius: 20px;
+}
+
+/* thank you state */
+
+.container > img {
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.container > h1, 
+.container > p {
+    text-align: center;
+}
+
+.container > h1 {
+    margin-top: 40px;
 }
