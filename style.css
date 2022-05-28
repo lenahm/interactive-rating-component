@@ -74,10 +74,6 @@ main form .rating li {
     border-radius: 50%;
 }
 
-main form .rating li input {
-    visibility: hidden;
-}
-
 main form .rating li label {
     cursor: pointer;
     display: flex;
@@ -106,6 +102,15 @@ main form #submit-btn {
     background-color: var(--orange);
     border: none; 
     border-radius: 20px;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+}
+
+input[type="radio"]:checked + label {
+    background-color: var(--medium-gray);
+    color: #fff;
 }
 
 /* hover effects */
